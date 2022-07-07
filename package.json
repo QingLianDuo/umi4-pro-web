@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@bici-wui/antx": "^1.0.1",
+    "@bicitech-design/pro-components": "^1.1.10",
+    "@bicitech-design/pro-table": "^2.76.4",
+    "@tanem/react-nprogress": "^5.0.6",
+    "@types/react-transition-group": "^4.4.5",
+    "@types/redux-logger": "^3.0.9",
+    "antd": "^4.21.3",
+    "mobx": "^6.6.1",
+    "mobx-persist-store": "^1.0.6",
+    "mobx-react": "^7.5.1",
+    "react-activation": "^0.11.2",
+    "react-transition-group": "^4.4.2",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "umi": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@umijs/max": "^4.0.2",
+    "@umijs/plugins": "^4.0.2",
+    "@umijs/runtime": "^3.5.26",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "tailwindcss": "^3",
+    "typescript": "^4.1.2"
+  }
+}
